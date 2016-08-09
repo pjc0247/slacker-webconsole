@@ -3,6 +3,10 @@ slacker-webconsole
 
 ![p](p.png)<br>
 
+lunning demo
+----
+https://www.youtube.com/watch?v=uHR4qJBPCvM
+
 Stack
 ----
 * nodejs + express
