@@ -4,7 +4,11 @@
 CONSTANTS
 ----
 __script type__
-
+```
+"subscriber"
+"bootstrap"
+"periodic_task"
+```
 
 GET /list/all
 ----
