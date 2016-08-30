@@ -92,6 +92,23 @@ GET /item/:id
 
 POST /item
 ----
+__sample__
+```json
+POST /item
+
+{
+  "name" : "test",
+  "type" : "subscriber"
+}
+```
+```json
+{
+  "type" : "subscriber",
+  "src" : "default_code",
+  "name" : "",
+  "regex" : ""
+}
+```
 
 PUT /item/:id
 ----
