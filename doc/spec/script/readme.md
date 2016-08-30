@@ -1,6 +1,11 @@
 /script
 ====
 
+CONSTANTS
+----
+__script type__
+
+
 GET /list/all
 ----
 
