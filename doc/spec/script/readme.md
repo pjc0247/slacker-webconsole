@@ -10,11 +10,41 @@ __script type__
 "periodic_task"
 ```
 
+GET /build
+----
+__sample__
+```json
+GET /script/build
+```
+```json
+{
+  "error" : [
+    {
+      "type" : "error",
+      "text" : "; expected",
+      "row" : 1,
+      "column" : 4
+    }
+  ]
+}
+```
+
+GET /deploy
+----
+__sample__
+```json
+GET /script/deploy
+```
+```json
+{
+}
+```
+
 GET /list/all
 ----
 __sample__
 ```json
-GET /list/all
+GET /script/list/all
 ```
 ```json
 [
@@ -38,7 +68,7 @@ GET /list/:type
 ----
 __sample__
 ```json
-GET /list/bootstrap
+GET /script/list/bootstrap
 ```
 ```json
 [
@@ -67,7 +97,7 @@ PUT /item/:id
 ----
 __sample__
 ```json
-PUT /item/SOME_DOCUMENT_ID
+PUT /script/item/SOME_DOCUMENT_ID
 
 {
   "type" : "subscriber",
@@ -84,7 +114,7 @@ DELETE /item/:id
 ----
 __sample__
 ```json
-DELETE /item/SOME_DOCUMENT_ID
+DELETE /script/item/SOME_DOCUMENT_ID
 ```
 ```json
 {}
